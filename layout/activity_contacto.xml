@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.crcr.listagatos.Menu_Opciones.ContactoActivity">
+
+ <LinearLayout
+     android:layout_width="368dp"
+     android:layout_height="495dp"
+     android:orientation="vertical"
+     >
+     <LinearLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+
+         >
+         <TextView
+             android:layout_marginLeft="25dp"
+             android:layout_marginTop="25dp"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Nombre:"
+             android:textSize="20dp"
+             />
+         <EditText
+             android:id="@+id/ETnombre"
+             android:layout_marginLeft="5dp"
+             android:layout_marginTop="17dp"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             />
+
+     </LinearLayout>
+
+     <LinearLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="25dp"
+         android:layout_marginLeft="25dp"
+         >
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Correo:"
+             android:textSize="20dp"
+             />
+         <EditText
+             android:id="@+id/ETcorreo"
+             android:layout_marginTop="-8dp"
+             android:layout_marginLeft="5dp"
+             android:textSize="15dp"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             />
+
+     </LinearLayout>
+
+     <LinearLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="25dp"
+         android:layout_marginLeft="25dp"
+         >
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Mensaje:"
+             android:textSize="20dp"
+             />
+         <EditText
+             android:id="@+id/ETmensaje"
+             android:layout_marginTop="-8dp"
+             android:layout_marginLeft="5dp"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content" />
+
+     </LinearLayout>
+
+     <Button
+         android:id="@+id/enviar"
+         android:layout_marginLeft="25dp"
+         android:layout_marginTop="150dp"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="ENVIAR COMENTARIO"
+         />
+
+ </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

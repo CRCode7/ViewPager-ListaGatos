@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:id="@+id/cvGato"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:id="@+id/cvfoto"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:src="@drawable/onegatosomali"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            >
+            <ImageView
+                android:id="@+id/btnLike"
+                android:layout_marginLeft="105dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/cat_button"
+                />
+            <TextView
+                android:id="@+id/cvNombre"
+                android:layout_marginLeft="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gato Solamí"
+                android:layout_gravity="center"
+                />
+            <TextView
+                android:id="@+id/puntuacion"
+                android:layout_marginLeft="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:layout_gravity="center"
+                />
+            <ImageView
+                android:id="@+id/imgLiked"
+                android:layout_marginLeft="0dp"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/cat_liked"
+                />
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>
