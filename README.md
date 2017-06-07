@@ -4,6 +4,8 @@ Se ha aplicado una mejora al proyecto de práctica anterior, incorporando un Vie
 
 He adjuntado algunos pantallazos de la aplicación para que puedan revisar parte del desarrollo.
 
+He compartido algunos archivos importantes, sobre los códigos escritos en java, el código de etiqueta de los layout, entre otros archivos claves, para que puedan analizarlo.
+
 Tuve problemas para poder hacer funcionar el botón "enviar comentario", agregué las librerías necesarias (JavaMail), y también incorporé el código fuente necesario, pero no hubo caso, esa fue una de mis faltas, de no poder darle alguna solución.
 
 El fragmento 2, quedo como LinearLayoutManager en vez de GridLayoutManager, ya que se me distorsionaban las imágenes, y no existía un orden bien distribuido, no supe bien a que se debía, por eso se dejo como LinearLayoutManager.
